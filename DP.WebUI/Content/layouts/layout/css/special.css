@@ -1,0 +1,56 @@
+﻿.buton2, .buton3 {
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    border: 1px solid #bdc3c7;
+    border-radius: 2px;
+    color: #464a4f;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .035em;
+    line-height: 10px;
+    margin: 5px;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    transition: background-color .05s ease-in-out,border-color .05s ease-in-out;
+    vertical-align: top;
+    white-space: nowrap;
+    zoom: 1;
+}
+
+button:focus {
+    outline: 0;
+}
+
+tr .buton2 {
+    visibility: hidden;
+}
+
+tr:hover button {
+    visibility: visible !important;
+}
+
+
+tr.highlighted td {
+    background: #f3f4f6;
+}
+
+.tooltip {
+    width: 150px !important;
+    line-height: 25px;
+    color: #fff !important;
+    text-align: center !important;
+    padding: 5px 0 !important;
+    border-radius: 6px !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px !important;
+}
